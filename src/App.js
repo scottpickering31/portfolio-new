@@ -3,7 +3,7 @@ import Navigation from "./components/Navigation";
 import "./App.css";
 import AboutMeContainer from "./components/AboutMeContainer";
 import ProjectContainer from "./components/ProjectContainer";
-import CertificationContainer from "./components/CertificationContainer";
+import AchievementContainer from "./components/AchievementContainer";
 import MyJourneyContainer from "./components/MyJourneyContainer";
 import SideProjectsContainer from "./components/SideProjectsContainer";
 import { Element } from "react-scroll";
@@ -13,7 +13,7 @@ import ToTopScroller from "./components/ToTopScroller";
 
 function App() {
   return (
-    <div>
+    <div className="background-container">
       <Navigation />
       <Element name="top">
         <ToTopScroller />
@@ -29,7 +29,7 @@ function App() {
         <MyJourneyContainer />
       </Element>
       <Element name="section4">
-        <CertificationContainer />
+        <AchievementContainer />
       </Element>
       <Element name="section5">
         <SideProjectsContainer />

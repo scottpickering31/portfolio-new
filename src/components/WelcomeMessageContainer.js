@@ -15,7 +15,7 @@ function WelcomeMessageContainer() {
     <>
       <div className="welcome-message-container">
         <div>
-          <h1>Welcome to my Portfolio!</h1>
+          <h1 className="welcome-h1">Welcome to my Portfolio!</h1>
         </div>
         <div className="portfolio-image-icons">
           <div className="social-media-icons">
