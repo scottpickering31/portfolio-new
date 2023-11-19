@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.3c351502.css",
+    "main.css": "/portfolio-new/static/css/main.1a2c9811.css",
     "main.js": "/portfolio-new/static/js/main.5b045cd9.js",
     "static/media/scottify-app-image.png": "/portfolio-new/static/media/scottify-app-image.caf2e79ea47dcc0d7824.png",
     "static/media/PlatinumFreight.png": "/portfolio-new/static/media/PlatinumFreight.9c54b8366ed514441623.png",
@@ -22,13 +22,14 @@
     "static/media/Business Outfitter Bob.png": "/portfolio-new/static/media/Business Outfitter Bob.40f2f7f302d01cafcd17.png",
     "static/media/1v7i5qfuab3dj137rn4eibmqii.png": "/portfolio-new/static/media/1v7i5qfuab3dj137rn4eibmqii.89393c06dbc8d143140b.png",
     "static/media/thesaurus-project.png": "/portfolio-new/static/media/thesaurus-project.e4dd19255b148b358f44.png",
+    "static/media/Gradient-background.jpeg": "/portfolio-new/static/media/Gradient-background.6fe5610dfc4db5a8d99b.jpeg",
     "static/media/AboutMe.jpeg": "/portfolio-new/static/media/AboutMe.10fa99793c767b47d0c3.jpeg",
     "index.html": "/portfolio-new/index.html",
-    "main.3c351502.css.map": "/portfolio-new/static/css/main.3c351502.css.map",
+    "main.1a2c9811.css.map": "/portfolio-new/static/css/main.1a2c9811.css.map",
     "main.5b045cd9.js.map": "/portfolio-new/static/js/main.5b045cd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c351502.css",
+    "static/css/main.1a2c9811.css",
     "static/js/main.5b045cd9.js"
   ]
 }
