@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-new/static/css/main.3c351502.css",
+    "main.js": "/portfolio-new/static/js/main.5b045cd9.js",
+    "static/media/scottify-app-image.png": "/portfolio-new/static/media/scottify-app-image.caf2e79ea47dcc0d7824.png",
+    "static/media/PlatinumFreight.png": "/portfolio-new/static/media/PlatinumFreight.9c54b8366ed514441623.png",
+    "static/media/CorbusBoards.png": "/portfolio-new/static/media/CorbusBoards.dc34fd6e043006f1613d.png",
+    "static/media/DjCeej.png": "/portfolio-new/static/media/DjCeej.0f8643c86869ee03a78e.png",
+    "static/media/movie-finder.png": "/portfolio-new/static/media/movie-finder.83883dd8ca408291c5a1.png",
+    "static/media/scott-journey.mp4": "/portfolio-new/static/media/scott-journey.180f33381e1f57b0d673.mp4",
+    "static/media/TheLeafyLodge.png": "/portfolio-new/static/media/TheLeafyLodge.16662c1a3764e4d9ea50.png",
+    "static/media/dogrampforsuv.png": "/portfolio-new/static/media/dogrampforsuv.2f0587624ff4e4c85c4d.png",
+    "static/media/reddit-redesign.png": "/portfolio-new/static/media/reddit-redesign.528579ab9899992a7858.png",
+    "static/media/scott-certificate-codecademy.png": "/portfolio-new/static/media/scott-certificate-codecademy.f01f775a8d191c0e0860.png",
+    "static/media/flight-tracker-image.png": "/portfolio-new/static/media/flight-tracker-image.492f4ec77675b21de678.png",
+    "static/media/Achievement2.png": "/portfolio-new/static/media/Achievement2.32bac66739d30ce2990f.png",
+    "static/media/Achievement3.png": "/portfolio-new/static/media/Achievement3.496d521a2fb5036a0769.png",
+    "static/media/pokedex-project.png": "/portfolio-new/static/media/pokedex-project.3aed3f9aca8bec9fa0c6.png",
+    "static/media/piano-keys-image.png": "/portfolio-new/static/media/piano-keys-image.8d771e55ec13f51fcce7.png",
+    "static/media/scottbot4000.png": "/portfolio-new/static/media/scottbot4000.b15c73c1e1a9cea9c2e5.png",
+    "static/media/image0.jpeg": "/portfolio-new/static/media/image0.a1afa18f360446c29dff.jpeg",
+    "static/media/Business Outfitter Bob.png": "/portfolio-new/static/media/Business Outfitter Bob.40f2f7f302d01cafcd17.png",
+    "static/media/1v7i5qfuab3dj137rn4eibmqii.png": "/portfolio-new/static/media/1v7i5qfuab3dj137rn4eibmqii.89393c06dbc8d143140b.png",
+    "static/media/thesaurus-project.png": "/portfolio-new/static/media/thesaurus-project.e4dd19255b148b358f44.png",
+    "static/media/AboutMe.jpeg": "/portfolio-new/static/media/AboutMe.10fa99793c767b47d0c3.jpeg",
+    "index.html": "/portfolio-new/index.html",
+    "main.3c351502.css.map": "/portfolio-new/static/css/main.3c351502.css.map",
+    "main.5b045cd9.js.map": "/portfolio-new/static/js/main.5b045cd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c351502.css",
+    "static/js/main.5b045cd9.js"
+  ]
+}
