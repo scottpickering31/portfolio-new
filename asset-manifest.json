@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-new/static/css/main.fab76a50.css",
-    "main.js": "/portfolio-new/static/js/main.bd019eac.js",
+    "main.js": "/portfolio-new/static/js/main.b7707a3d.js",
     "static/media/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg": "/portfolio-new/static/media/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.92c9fb7372440b5bec53.jpg",
     "static/media/scott-journey.mp4": "/portfolio-new/static/media/scott-journey.180f33381e1f57b0d673.mp4",
+    "static/media/CarPickerForm.png": "/portfolio-new/static/media/CarPickerForm.222ec3d90bd11479bc92.png",
     "static/media/DjCeej.jpg": "/portfolio-new/static/media/DjCeej.4be8b5b14c4adb983545.jpg",
     "static/media/PlatinumFreight.jpg": "/portfolio-new/static/media/PlatinumFreight.ef9f3df09025cbdeba69.jpg",
-    "static/media/flight-tracker-image.jpg": "/portfolio-new/static/media/flight-tracker-image.329b9810e8bc8bd829b0.jpg",
     "static/media/CorbusBoards.jpg": "/portfolio-new/static/media/CorbusBoards.d1b73ba81bbd42cd103b.jpg",
-    "static/media/reddit-redesign.jpg": "/portfolio-new/static/media/reddit-redesign.9b41a856b03c25bb099c.jpg",
     "static/media/scottify-app-image.jpg": "/portfolio-new/static/media/scottify-app-image.ba550d6c67cae48e7bf8.jpg",
     "static/media/scott-certificate-codecademy.jpg": "/portfolio-new/static/media/scott-certificate-codecademy.8b39f3cd739d1c610563.jpg",
     "static/media/movie-finder.jpg": "/portfolio-new/static/media/movie-finder.eae1197f93ae909fc932.jpg",
@@ -19,18 +18,13 @@
     "static/media/1v7i5qfuab3dj137rn4eibmqii.png": "/portfolio-new/static/media/1v7i5qfuab3dj137rn4eibmqii.89393c06dbc8d143140b.png",
     "static/media/Achievement3.png": "/portfolio-new/static/media/Achievement3.66443228a52805476a6d.png",
     "static/media/Achievement2.png": "/portfolio-new/static/media/Achievement2.72f2ea6b7581ed756a9b.png",
-    "static/media/pokedex-project.jpg": "/portfolio-new/static/media/pokedex-project.8250e8b6a4eda76a3304.jpg",
-    "static/media/piano-keys-image.jpg": "/portfolio-new/static/media/piano-keys-image.d2cd829bafeb0dbbb4ec.jpg",
-    "static/media/scottbot4000.jpg": "/portfolio-new/static/media/scottbot4000.7c5576bded73744d3cf7.jpg",
-    "static/media/thesaurus-project.jpg": "/portfolio-new/static/media/thesaurus-project.dc6fd4d6d163f7821ff0.jpg",
-    "static/media/Business Outfitter Bob.jpg": "/portfolio-new/static/media/Business Outfitter Bob.241cb2125a95004b49f5.jpg",
     "static/media/AboutMe.jpeg": "/portfolio-new/static/media/AboutMe.10fa99793c767b47d0c3.jpeg",
     "index.html": "/portfolio-new/index.html",
     "main.fab76a50.css.map": "/portfolio-new/static/css/main.fab76a50.css.map",
-    "main.bd019eac.js.map": "/portfolio-new/static/js/main.bd019eac.js.map"
+    "main.b7707a3d.js.map": "/portfolio-new/static/js/main.b7707a3d.js.map"
   },
   "entrypoints": [
     "static/css/main.fab76a50.css",
-    "static/js/main.bd019eac.js"
+    "static/js/main.b7707a3d.js"
   ]
 }
