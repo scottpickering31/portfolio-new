@@ -1,13 +1,14 @@
 import React from "react";
 import "../App.css";
 
-function AchievementCard({ details, title, imgUrl }) {
+function AchievementCard({ title, imgUrl, hrefs }) {
   return (
     <>
       <div className="achievement-card">
-        <h1>{title}</h1>
-        <img src={imgUrl} />
-        <h3>{details}</h3>
+        <h2>{title}</h2>
+        <a href={hrefs} target="_blank">
+          <img src={imgUrl} />
+        </a>
       </div>
     </>
   );

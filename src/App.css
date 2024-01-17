@@ -9,8 +9,8 @@ font-family: "Bebas Neue", sans-serif;
 body {
   margin: 0;
   color: white;
-  background-image: url("https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg?w=1800&t=st=1700085719~exp=1700086319~hmac=5b5c0998d1de80f265a5bf7f0700a845f17065e5df3c4a90043e72ed51552889");
-  background-size: cover; /* Ensures the image covers the entire container */
+  background-image: url("../src/images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -27,6 +27,7 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 10px;
   text-align: center;
+  font-size: 40px;
 }
 
 p {
@@ -49,6 +50,7 @@ video {
   top: 0;
   left: 0;
   background-color: #99ccff;
+  z-index: 2;
 }
 
 .nav-bar > ul {
@@ -109,26 +111,42 @@ video {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
-  border: 1px solid black;
+  border: 4px solid #000099;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .details-buttons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   margin: 10px;
 }
 
 .details-buttons-container {
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
-.details-buttons-container > button {
+.details-buttons-container > a > button {
   width: 100px;
   border-radius: 20px;
   margin-right: 10px;
+  background-color: #000099;
+  color: white;
+  height: 50px;
+}
+.details-buttons-container > a > button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.details-buttons-container > a > button:active {
+  width: 110px;
+  background-color: blue;
 }
 
 .details-image-buttons > img {
@@ -167,17 +185,29 @@ video {
   border-radius: 20px;
   height: 50px;
   width: 75px;
+  background-color: #99ccff;
+}
+
+.side-projects-card > button:hover {
+  background-color: #000099;
+  color: white;
+  cursor: pointer;
 }
 
 .side-projects-card {
   width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid black;
   border-radius: 20px;
   background: linear-gradient(to bottom, navy, #87ceeb);
   margin-bottom: 20px;
+}
+
+.side-projects-card:hover {
+  width: 110%;
+  border: 2px solid black;
 }
 
 .side-project-image {
@@ -187,7 +217,7 @@ video {
 .fieldset-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 20px;
   color: black;
 }
@@ -210,6 +240,19 @@ video {
   margin-top: 10vh;
 }
 
+.my-journey-container > h1 {
+  margin-bottom: 50px;
+}
+
+.my-journey-title {
+  font-size: px;
+}
+
+.my-journey-2015-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .my-journey-introduction {
   display: flex;
   flex-direction: row;
@@ -218,36 +261,127 @@ video {
   align-items: center;
 }
 
-.my-journey-paragraph-one {
+.my-journey-paragraph-2021-container {
+  display: flex;
+}
+
+.my-journey-paragraph-2021,
+.my-journey-paragraph-2023 {
+  margin: 10px;
+}
+
+.my-journey-title {
+  font-size: 60px;
+  margin-right: 10px;
+}
+
+.my-journey-paragraph-2015,
+.my-journey-paragraph-2017 {
+  margin: 10px;
+  width: 40%;
+}
+
+.my-journey-paragraph-2015,
+.my-journey-paragraph-2017,
+.my-journey-paragraph-2021,
+.my-journey-paragraph-2023,
+.about-me-paragraphs {
   background-color: #99ccff;
   border-radius: 20px;
   padding: 10px;
   color: #000099;
-
 }
 
-.my-journey-images {
+.dogramp-image {
+  height: 100%;
+  width: 100%;
+}
+
+.down-arrow {
+  margin-top: 20px;
+  height: 75px;
+  width: 75px;
+}
+
+.my-journey-images-2023 {
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
 }
 
-.my-journey-images > img {
+.my-journey-images-2023 > img {
   border-radius: 20px;
   width: 320px;
   height: 220px;
 }
 
-.my-journey-images > img:hover {
+.my-journey-images-2023 > img:hover {
   height: 350px;
   width: 450px;
   box-shadow: 10px 10px 100px white;
 }
 
+.my-journey-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-journey-title-container > h3 {
+  font-size: 30px;
+}
+
+.my-journey-container-2017 {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-images-container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  border: 2px solid #99ccff;
+  margin: 10px;
+}
+
+.gridimage:hover {
+  transform: scale(1.6);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.gridimage {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-size: cover;
+  transition: transform 0.3s ease;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
 .project-card,
 .achievement-card {
   border-radius: 20px;
-  border: 1px solid black;
+  border: 2px solid white;
 }
 
 .achievement-card {
@@ -255,16 +389,19 @@ video {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 30vw;
+  height: 50vh;
 }
 
-.achievement-card > img {
+.achievement-card > a > img {
   width: 300px;
   height: 300px;
 }
 
-.achievement-card > img:hover {
-  width: 500px;
-  height: 500px;
+.achievement-card > a > img:hover {
+  width: 100%;
+  height: 90%;
+  cursor: pointer;
 }
 
 .project-card {
@@ -273,6 +410,8 @@ video {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .project-card > img {
@@ -280,12 +419,31 @@ video {
   width: 400px;
 }
 
-/* .my-journey-paragraph-one {
-  background-color: #99ccff;
-  border-radius: 20px;
+.project-card > button:hover {
+  background-color: #000099;
+  cursor: pointer;
+}
+
+.rendered-button-project-card > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.rendered-button-project-card > a > button,
+.project-card > button {
   padding: 10px;
-  color: #000099;
-} */
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #99ccff;
+  color: white;
+}
+
+.rendered-button-project-card > a > button:hover {
+  background-color: #000099;
+  cursor: pointer;
+}
 
 .footer-container {
   display: flex;
@@ -463,3 +621,30 @@ video {
   margin-top: 3vh;
 }
 /* 640 × 480 */
+@media only screen and (max-width: 600px) {
+  .background-container {
+    width: 275vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-bar > ul {
+    flex-direction: column;
+  }
+
+  .nav-bar li {
+    width: 100%;
+  }
+
+  .nav-bar li:hover {
+    border-radius: 0;
+  }
+
+  .nav-bar li:active {
+    width: 100%;
+  }
+
+  .side-projects-inner-container {
+    width: 90%;
+  }
+}

@@ -22,25 +22,28 @@ function WelcomeMessageContainer() {
             <a
               href="https://www.linkedin.com/in/scott-pickering-b6b05287/"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://github.com/scottpickering31" target="_blank">
+            <a href="https://github.com/scottpickering31" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
               href="mailto:scottpickering31@gmail.com"
               target="_blank"
               className="email-link"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faEnvelopeSquare} />
             </a>
-            <a href="https://twitter.com/scottypickering" target="_blank">
+            <a href="https://twitter.com/scottypickering" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faSquareXTwitter} />
             </a>
             <a
               href="https://www.facebook.com/scott.s.pickering"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faFacebook} />
             </a>

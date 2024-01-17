@@ -50,7 +50,7 @@ function Footer() {
           />
         </div>
         <div className="footer-contacts">
-          <div>
+          <div className="footer-contacts-title">
             {expand ? (
               <h1 style={dimensions} className="contact-me-title">
                 Contact Me
